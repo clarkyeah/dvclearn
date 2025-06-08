@@ -4,3 +4,5 @@
     url = s3://mldvc
 ['remote "storage"']
     url = s3://mldvc
+    region = cn-north-1
+    profile = cn-lz-prod
