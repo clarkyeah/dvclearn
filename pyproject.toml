@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dvclearn"
+version = "0.1.0"
+description = ""
+authors = ["clarkyeah <clarkyeah@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dvc = "^3.60.0"
+dvc-s3 = "^3.2.0"
+pandas = "^2.3.0"
+numpy = "^2.3.0"
+scikit-learn = "^1.7.0"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

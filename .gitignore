@@ -1,1 +1,7 @@
-.csv
+# 忽略所有 CSV 文件
+*.csv
+**/*.csv
+
+# 忽略 macOS 系统文件
+.DS_Store
+*/.DS_Store
